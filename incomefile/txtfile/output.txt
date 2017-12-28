@@ -1,0 +1,6 @@
+SIP/1501-0000032f    macro-dialout-trunk  s                  22 Up      Dial         DAHDI/g0/09740602314,300, 04226655554     00:09:59                         DAHDI/i1/09740602314
+DAHDI/i1/08050917252 from-pstn                                1 Up      AppDial      (Outgoing Line)           908050917252    00:00:50                         SIP/1147-00000333   
+DAHDI/i1/09740602314 from-pstn                                1 Up      AppDial      (Outgoing Line)           909740602314    00:09:59                         SIP/1501-0000032f   
+SIP/1147-00000333    macro-dialout-trunk  s                  22 Up      Dial         DAHDI/g0/08050917252,300, 04226655554     00:00:50                         DAHDI/i1/08050917252
+Local/9111@from-queu from-queue 	  5555 		     1  Up      AppQueue     (Outgoing Line)           9111            00:00:13                         DAHDI/i1/00917904315
+Local/9111@from-queu macro-dial-one       s                  43 Up      Dial         SIP/9111,,trM(auto-blkvm) 00917904315187  00:00:13 			SIP/9111-000001a7

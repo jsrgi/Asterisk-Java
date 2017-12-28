@@ -1,0 +1,5 @@
+### ASTERISK JAVA AMI LIVE FILE RESTART  ####
+
+10 06 * * * sh /var/www/html/telecom/incomefile/ProcessRestart.sh
+
+###   ASTERISK JAVA AMI LIVE FILE END  ###

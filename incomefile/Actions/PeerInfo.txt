@@ -1,0 +1,72 @@
+
+  * Name       : 5220
+  Description  : 
+  Secret       : <Set>
+  MD5Secret    : <Not set>
+  Remote Secret: <Not set>
+  Context      : from-internal
+  Record On feature : automon
+  Record Off feature : automon
+  Subscr.Cont. : <Not set>
+  Language     : 
+  Tonezone     : <Not set>
+  AMA flags    : Unknown
+  Transfer mode: open
+  CallingPres  : Presentation Allowed, Not Screened
+  Callgroup    : 
+  Pickupgroup  : 
+  Named Callgr : 
+  Nam. Pickupgr: 
+  MOH Suggest  : 
+  Mailbox      : 
+  VM Extension : *97
+  LastMsgsSent : 32767/65535
+  Call limit   : 2147483647
+  Max forwards : 0
+  Dynamic      : Yes
+  Callerid     : "5220" <5220>
+  MaxCallBR    : 384 kbps
+  Expire       : 3283
+  Insecure     : no
+  Force rport  : No
+  Symmetric RTP: No
+  ACL          : Yes
+  DirectMedACL : No
+  T.38 support : No
+  T.38 EC mode : Unknown
+  T.38 MaxDtgrm: 4294967295
+  DirectMedia  : No
+  PromiscRedir : No
+  User=Phone   : No
+  Video Support: No
+  Text Support : No
+  Ign SDP ver  : No
+  Trust RPID   : Yes
+  Send RPID    : No
+  TrustIDOutbnd: Legacy
+  Subscriptions: Yes
+  Overlap dial : Yes
+  DTMFmode     : rfc2833
+  Timer T1     : 500
+  Timer B      : 32000
+  ToHost       : 
+  Addr->IP     : 10.100.9.123:53915
+  Defaddr->IP  : (null)
+  Prim.Transp. : UDP
+  Allowed.Trsp : UDP
+  Def. Username: 5220
+  SIP Options  : (none)
+  Codecs       : (gsm|ulaw|alaw)
+  Codec Order  : (alaw:20,gsm:20,ulaw:20)
+  Auto-Framing : No
+  Status       : OK (10 ms)
+  Useragent    : X-Lite release 4.9.7 stamp 83108
+  Reg. Contact : sip:5220@10.100.9.123:53915;rinstance=3b81446155e8d63d
+  Qualify Freq : 60000 ms
+  Keepalive    : 0 ms
+  Sess-Timers  : Accept
+  Sess-Refresh : uas
+  Sess-Expires : 1800 secs
+  Min-Sess     : 90 secs
+  RTP Engine   : asterisk
+  Parkinglot   : 

@@ -1,0 +1,19 @@
+SIP/1000-00006359    macro-dial-one       s                   1 Up      AppDial      (Outgoing Line)           1000            00:00:40                         Local/1000@from-queu
+SIP/9876-00006360    from-internal        9876                1 Ringing AppDial      (Outgoing Line)           9876            00:00:00                         (None)              
+SIP/9902-00006337    from-internal        09445893767         3 Up      Dial         DAHDI/g12/9445893767      5554            00:04:05                         DAHDI/i2/9445893767-
+SIP/9899-0000635d    from-internal        09843968520         3 Ring    Dial         DAHDI/g12/9843968520      5554            00:00:07                         (None)              
+SIP/fxo1-00006333    from-internal                            1 Up      AppDial      (Outgoing Line)           300601112209821 00:04:38                         SIP/9345-00006332   
+SIP/1146-0000635e    from-internal        109503693926        3 Ring    Dial         DAHDI/g0/09503693926      5554            00:00:01                         (None)              
+DAHDI/i2/9731504812- from-internal        999                 2 Up      Playback     good-morning              9731504812      00:00:02                         (None)              
+SIP/9822-00006358    from-internal        002267177078        3 Up      Dial         DAHDI/g12/02267177078     5554            00:00:48                         DAHDI/i2/02267177078
+DAHDI/i1/09503693926 from-internal        109503693926        1 Dialing AppDial      (Outgoing Line)           109503693926    00:00:01                         (None)              
+DAHDI/i2/9843968520- from-internal        09843968520         1 Ringing AppDial      (Outgoing Line)           09843968520     00:00:07                         (None)              
+Local/1000@from-queu macro-dial-one       s                  43 Up      Dial         SIP/1000,,trM(auto-blkvm) 8870124681      00:00:40                         SIP/1000-00006359   
+Local/1000@from-queu from-queue           101                 1 Up      AppQueue     (Outgoing Line)           1000            00:00:40                         SIP/fxo0-00006354   
+SIP/9833-0000635c    from-internal        09994055178         3 Up      Dial         DAHDI/g12/9994055178      5554            00:00:20                         DAHDI/i2/9994055178-
+DAHDI/i2/9994055178- from-internal                            1 Up      AppDial      (Outgoing Line)           09994055178     00:00:20                         SIP/9833-0000635c   
+DAHDI/i2/02267177078 from-internal                            1 Up      AppDial      (Outgoing Line)           002267177078    00:00:48                         SIP/9822-00006358   
+SIP/9345-00006332    macro-dialout-trunk  s                  22 Up      Dial         SIP/fxo1/00601112209821,3 9345            00:04:38                         SIP/fxo1-00006333   
+DAHDI/i2/9445893767- from-internal                            1 Up      AppDial      (Outgoing Line)           09445893767     00:04:05                         SIP/9902-00006337   
+SIP/9909-0000635f    macro-dial-one       s                  43 Ring    Dial         SIP/9876,,trI             9909            00:00:00                         (None)              
+SIP/fxo0-00006354    ext-queues           101                40 Up      Queue        101,t,,,60,,,,,           8870124681      00:01:19                         Local/1000@from-queu
